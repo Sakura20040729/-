@@ -1,0 +1,3 @@
+Prefab already exists: Assets/Prefabs/Decal_Simple.prefab
+Processed 75 prefabs, assigned to 0 prefabs.
+Processed 3 PlaceDecal components in open scenes, assigned 0 components.

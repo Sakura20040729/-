@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 54b0a0d386bc49a419af834777b6f2f1
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: 39b06e1204f02124ea876401d8800a41
+  - enabled: 1
+    path: Assets/Scenes/Scene_Ceres.unity
+    guid: f14df28a42338004da3bb1099a16b38b
+  - enabled: 1
+    path: Assets/Scenes/Scene_Eris.unity
+    guid: c2fc935f81f971a46ab213fd24f6c521
+  - enabled: 1
+    path: Assets/Scenes/Scene_Haumea.unity
+    guid: 1cf1d6336a4f1484aba6ca915029b5fd
+  - enabled: 1
+    path: Assets/Scenes/Scene_Makemake.unity
+    guid: a7325514b1834c84888496bdbd2fdf40
+  - enabled: 1
+    path: Assets/Scenes/FinalBattle.unity
+    guid: 118844636ca656c4a8599e307ed34b62
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

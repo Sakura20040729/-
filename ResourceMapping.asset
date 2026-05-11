@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00463dc7aedc35c4cb719ff90ea8d513, type: 3}
+  m_Name: ResourceMapping
+  m_EditorClassIdentifier: 
+  mappings:
+  - buttonName: "\u57FA\u7840\u5408\u91D1"
+    celestialBody: "\t\u5730\u7403"
+    resourceName: "\t\u57FA\u7840\u5408\u91D1"
+    resourceDesc: "\u7A7A\u95F4\u7AD9\u521D\u59CB\u751F\u4EA7\u548C\u4F9B\u5E94\u7684\u57FA\u7840\u6750\u6599\u3002"
+    unlockFleetTypes:
+    - "\u57FA\u7840\u62A4\u536B\u8230\uFF0C\u57FA\u7840\u8FD0\u8F93\u8230"
+    isUnlocked: 1
+    icon: {fileID: 21300000, guid: b105038f732d74a449453a1f51a5ff03, type: 3}
+  - buttonName: "\u6C26-3\u540C\u4F4D\u7D20"
+    celestialBody: "\u6708\u7403"
+    resourceName: "\u6C26-3\u540C\u4F4D\u7D20"
+    resourceDesc: "\u9AD8\u6548\u3001\u6E05\u6D01\u7684\u6838\u805A\u53D8\u71C3\u6599\uFF0C\u80FD\u91CF\u5BC6\u5EA6\u9AD8"
+    unlockFleetTypes:
+    - "\u79FB\u52A8\u7CBE\u70BC\u8230"
+    isUnlocked: 0
+    icon: {fileID: 0}
+  - buttonName: "\u8010\u9AD8\u6E29\u6676\u4F53"
+    celestialBody: "\t\u91D1\u661F"
+    resourceName: "\u8010\u9AD8\u6E29\u6676\u4F53"
+    resourceDesc: "\u706B\u661F\u5730\u58F3\u4E2D\u7684\u7279\u6B8A\u7845\u5316\u5408\u7269\uFF0C\u662F\u9876\u7EA7\u534A\u5BFC\u4F53\u548C\u7CBE\u5BC6\u5149\u5B66\u4EEA\u5668\u7684\u6838\u5FC3\u6750\u6599\u3002"
+    unlockFleetTypes:
+    - "\u7A81\u51FB\u62A4\u536B\u8230"
+    isUnlocked: 0
+    icon: {fileID: 0}
+  - buttonName: "\u9AD8\u7EAF\u5EA6\u7845\u5CA9"
+    celestialBody: "\t\u706B\u661F"
+    resourceName: "\t\u9AD8\u7EAF\u5EA6\u7845\u5CA9"
+    resourceDesc: "\u706B\u661F\u5730\u58F3\u4E2D\u7684\u7279\u6B8A\u7845\u5316\u5408\u7269\uFF0C\u662F\u9876\u7EA7\u534A\u5BFC\u4F53\u548C\u7CBE\u5BC6\u5149\u5B66\u4EEA\u5668\u7684\u6838\u5FC3\u6750\u6599\u3002"
+    unlockFleetTypes:
+    - "\u9690\u5F62\u4FA6\u5BDF\u8230"
+    isUnlocked: 0
+    icon: {fileID: 0}
+  - buttonName: "\t\u8D85\u6D41\u4F53\u6C26"
+    celestialBody: "\u571F\u661F"
+    resourceName: "\t\u8D85\u6D41\u4F53\u6C26"
+    resourceDesc: "\u5728\u6728\u661F\u6781\u7AEF\u6C14\u538B\u4E0B\u5F62\u6210\u7684\u8D85\u5BFC\u6D41\u4F53\uFF0C\u662F\u80FD\u91CF\u6B66\u5668\u7684\u5B8C\u7F8E\u50AC\u5316\u5242\u3002"
+    unlockFleetTypes:
+    - "\u524D\u6CBF\u57FA\u5730\u8F66"
+    isUnlocked: 0
+    icon: {fileID: 0}
+  - buttonName: "\t\u7532\u70F7\u51B0\u82AF"
+    celestialBody: "\t\u5929\u738B\u661F"
+    resourceName: "\t\u7532\u70F7\u51B0\u82AF"
+    resourceDesc: "\u5929\u738B\u661F\u5185\u6838\u7684\u5947\u7279\u51B0\u72B6\u56FA\u4F53\uFF0C\u5728\u80FD\u91CF\u573A\u6FC0\u53D1\u4E0B\u80FD\u4EA7\u751F\u5F3A\u5927\u7684\u529B\u573A\u6548\u5E94\u3002"
+    unlockFleetTypes:
+    - "\u62A4\u76FE\u62A4\u536B\u8230"
+    isUnlocked: 0
+    icon: {fileID: 0}
+  - buttonName: "\u91CF\u5B50\u51B0\u6838"
+    celestialBody: "\t\u6D77\u738B\u661F"
+    resourceName: "\u91CF\u5B50\u51B0\u6838"
+    resourceDesc: "\u6D77\u738B\u661F\u6DF1\u5904\u7684\u5947\u5F02\u7269\u8D28\uFF0C\u5176\u7C92\u5B50\u72B6\u6001\u4E0D\u7A33\u5B9A\uFF0C\u53EF\u7528\u4E8E\u5F15\u53D1\u65F6\u7A7A\u5FAE\u6270\u3002"
+    unlockFleetTypes:
+    - "\u76F8\u4F4D\u63A2\u9488"
+    isUnlocked: 0
+    icon: {fileID: 0}
+  - buttonName: "\t\u6DB2\u6001\u91D1\u5C5E\u6C22"
+    celestialBody: "\t\u6728\u661F"
+    resourceName: "\t\u6DB2\u6001\u91D1\u5C5E\u6C22"
+    resourceDesc: "\u5728\u6728\u661F\u6781\u7AEF\u6C14\u538B\u4E0B\u5F62\u6210\u7684\u8D85\u5BFC\u6D41\u4F53\uFF0C\u662F\u80FD\u91CF\u6B66\u5668\u7684\u5B8C\u7F8E\u50AC\u5316\u5242\u3002"
+    unlockFleetTypes:
+    - "\u6FC0\u5149\u9A71\u9010\u8230"
+    isUnlocked: 0
+    icon: {fileID: 0}
